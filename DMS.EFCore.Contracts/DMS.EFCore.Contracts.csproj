@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>D:\gitme\DMS.EFCore\DMS.EFCore.Contracts\DMS.EFCore.Contracts.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DMS.EFCore.Repository.Mysql2\DMS.EFCore.Repository.Mysql2.csproj" />
+    <ProjectReference Include="..\DMS.EFCore.Repository.Mysql\DMS.EFCore.Repository.Mysql.csproj" />
+    <ProjectReference Include="..\DMS.EFCore.Repository\DMS.EFCore.Repository.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="DMS.EFCore.Contracts.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

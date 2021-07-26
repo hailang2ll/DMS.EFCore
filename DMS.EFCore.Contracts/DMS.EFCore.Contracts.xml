@@ -1,0 +1,271 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DMS.EFCore.Contracts</name>
+    </assembly>
+    <members>
+        <member name="T:DMS.EFCore.Contracts.ISysJobLogMysql2Service">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:DMS.EFCore.Contracts.ISysJobLogMysql2Service.Add">
+            <summary>
+            同步新增
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DMS.EFCore.Contracts.ISysJobLogMysql2Service.AddAsync">
+            <summary>
+            异步新增
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DMS.EFCore.Contracts.ISysJobLogMysql2Service.GetEntity(System.Int32)">
+            <summary>
+            同步查询示例
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DMS.EFCore.Contracts.ISysJobLogMysql2Service.GetEntityAsync(System.Int32)">
+            <summary>
+            异步查询示例
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DMS.EFCore.Contracts.ISysJobLogMysql2Service.GetList(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="searchText"></param>
+            <param name="searchText2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DMS.EFCore.Contracts.ISysJobLogMysql2Service.GetListAsync(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="searchText"></param>
+            <param name="searchText2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DMS.EFCore.Contracts.ISysJobLogMysql2Service.GetListExt(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="searchText"></param>
+            <param name="searchText2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DMS.EFCore.Contracts.ISysJobLogMysql2Service.GetListExtAsync(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="searchText"></param>
+            <param name="searchText2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DMS.EFCore.Contracts.ISysJobLogMysql2Service.GetPageList(System.Int32,System.Int32,System.String)">
+            <summary>
+            同步分页查询示例
+            </summary>
+            <param name="pageIndex"></param>
+            <param name="pageSize"></param>
+            <param name="searchText"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DMS.EFCore.Contracts.ISysJobLogMysql2Service.GetPageListAsync(System.Int32,System.Int32,System.String)">
+            <summary>
+            异步分页查询示例
+            </summary>
+            <param name="pageIndex"></param>
+            <param name="pageSize"></param>
+            <param name="searchText"></param>
+            <returns></returns>
+        </member>
+        <member name="T:DMS.EFCore.Contracts.ISysJobLogMysqlService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:DMS.EFCore.Contracts.ISysJobLogMysqlService.Add">
+            <summary>
+            同步新增
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DMS.EFCore.Contracts.ISysJobLogMysqlService.AddAsync">
+            <summary>
+            异步新增
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DMS.EFCore.Contracts.ISysJobLogMysqlService.GetEntity(System.Int32)">
+            <summary>
+            同步查询示例
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DMS.EFCore.Contracts.ISysJobLogMysqlService.GetEntityAsync(System.Int32)">
+            <summary>
+            异步查询示例
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DMS.EFCore.Contracts.ISysJobLogMysqlService.GetList(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="searchText"></param>
+            <param name="searchText2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DMS.EFCore.Contracts.ISysJobLogMysqlService.GetListAsync(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="searchText"></param>
+            <param name="searchText2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DMS.EFCore.Contracts.ISysJobLogMysqlService.GetListExt(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="searchText"></param>
+            <param name="searchText2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DMS.EFCore.Contracts.ISysJobLogMysqlService.GetListExtAsync(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="searchText"></param>
+            <param name="searchText2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DMS.EFCore.Contracts.ISysJobLogMysqlService.GetPageList(System.Int32,System.Int32,System.String)">
+            <summary>
+            同步分页查询示例
+            </summary>
+            <param name="pageIndex"></param>
+            <param name="pageSize"></param>
+            <param name="searchText"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DMS.EFCore.Contracts.ISysJobLogMysqlService.GetPageListAsync(System.Int32,System.Int32,System.String)">
+            <summary>
+            异步分页查询示例
+            </summary>
+            <param name="pageIndex"></param>
+            <param name="pageSize"></param>
+            <param name="searchText"></param>
+            <returns></returns>
+        </member>
+        <member name="T:DMS.EFCore.Contracts.ISysJobLogService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:DMS.EFCore.Contracts.ISysJobLogService.Add">
+            <summary>
+            同步新增
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DMS.EFCore.Contracts.ISysJobLogService.AddAsync">
+            <summary>
+            异步新增
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DMS.EFCore.Contracts.ISysJobLogService.GetEntity(System.Int32)">
+            <summary>
+            同步查询示例
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DMS.EFCore.Contracts.ISysJobLogService.GetEntityAsync(System.Int32)">
+            <summary>
+            异步查询示例
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DMS.EFCore.Contracts.ISysJobLogService.GetList(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="searchText"></param>
+            <param name="searchText2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DMS.EFCore.Contracts.ISysJobLogService.GetListAsync(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="searchText"></param>
+            <param name="searchText2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DMS.EFCore.Contracts.ISysJobLogService.GetListExt(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="searchText"></param>
+            <param name="searchText2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DMS.EFCore.Contracts.ISysJobLogService.GetListExtAsync(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="searchText"></param>
+            <param name="searchText2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DMS.EFCore.Contracts.ISysJobLogService.GetPageList(System.Int32,System.Int32,System.String)">
+            <summary>
+            同步分页查询示例
+            </summary>
+            <param name="pageIndex"></param>
+            <param name="pageSize"></param>
+            <param name="searchText"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DMS.EFCore.Contracts.ISysJobLogService.GetPageListAsync(System.Int32,System.Int32,System.String)">
+            <summary>
+            异步分页查询示例
+            </summary>
+            <param name="pageIndex"></param>
+            <param name="pageSize"></param>
+            <param name="searchText"></param>
+            <returns></returns>
+        </member>
+        <member name="T:DMS.EFCore.Contracts.Result.test">
+            <summary>
+            测试实体
+            </summary>
+        </member>
+        <member name="P:DMS.EFCore.Contracts.Result.test.JobLogID">
+            <summary>
+            任务ID
+            </summary>
+        </member>
+        <member name="P:DMS.EFCore.Contracts.Result.test.Name">
+            <summary>
+            任务名称
+            </summary>
+        </member>
+        <member name="P:DMS.EFCore.Contracts.Result.test.Message">
+            <summary>
+            任务消息
+            </summary>
+        </member>
+    </members>
+</doc>

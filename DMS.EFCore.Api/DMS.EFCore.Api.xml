@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DMS.EFCore.Api</name>
+    </assembly>
+    <members>
+        <member name="T:DMS.EFCore.Api.Controllers.ValuesController">
+            <summary>
+            Values控制器
+            </summary>
+        </member>
+        <member name="M:DMS.EFCore.Api.Controllers.ValuesController.#ctor(DMS.EFCore.Contracts.ISysJobLogService,DMS.EFCore.Contracts.ISysJobLogMysqlService,DMS.EFCore.Contracts.ISysJobLogMysql2Service)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="sysJobLogService"></param>
+            <param name="sysJobLogMysqlService"></param>
+            <param name="sysJobLogMysql2Service"></param>
+        </member>
+        <member name="M:DMS.EFCore.Api.Controllers.ValuesController.TestIoc">
+            <summary>
+            测试IOC容器
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DMS.EFCore.Api.Controllers.ValuesController.GetLog4net">
+            <summary>
+            日志处理
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DMS.EFCore.Api.Controllers.ValuesController.GetAppConfig">
+            <summary>
+            读取appsettings.json和自定义配置文件
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DMS.EFCore.Api.Controllers.ValuesController.StringConvertAll">
+            <summary>
+            StringConvertAll
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:DMS.EFCore.Api.Controllers.WeatherForecastController">
+            <summary>
+            Weather路由
+            </summary>
+        </member>
+        <member name="M:DMS.EFCore.Api.Controllers.WeatherForecastController.#ctor(Microsoft.Extensions.Logging.ILogger{DMS.EFCore.Api.Controllers.WeatherForecastController})">
+            <summary>
+            构造函数
+            </summary>
+            <param name="logger"></param>
+        </member>
+        <member name="M:DMS.EFCore.Api.Controllers.WeatherForecastController.Get">
+            <summary>
+            Weather get请求
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:DMS.EFCore.Api.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:DMS.EFCore.Api.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:DMS.EFCore.Api.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:DMS.EFCore.Api.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:DMS.EFCore.Api.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:DMS.EFCore.Api.Startup.#ctor(Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            
+            </summary>
+            <param name="env"></param>
+        </member>
+        <member name="M:DMS.EFCore.Api.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:DMS.EFCore.Api.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+        <member name="M:DMS.EFCore.Api.Startup.ConfigureContainer(Autofac.ContainerBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="containerBuilder"></param>
+        </member>
+        <member name="T:DMS.EFCore.Api.WeatherForecast">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:DMS.EFCore.Api.WeatherForecast.Date">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:DMS.EFCore.Api.WeatherForecast.TemperatureC">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:DMS.EFCore.Api.WeatherForecast.TemperatureF">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:DMS.EFCore.Api.WeatherForecast.Summary">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>
