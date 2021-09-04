@@ -1,13 +1,14 @@
 using Autofac;
 using DMS.Autofac;
-using DMS.Common.Configurations;
-using DMS.Common.Serialization.JsonConverters;
 using DMS.EFCore.Repository.Models;
 using DMS.EFCore.Repository.Mysql.Models;
 using DMS.EFCore.Repository.Mysql2.Models;
 using DMS.NLogs.Filters;
 using DMS.Redis.Configurations;
 using DMS.Swagger;
+using DMSN.Common.Configurations;
+using DMSN.Common.Helper;
+using DMSN.Common.JsonHandler.JsonConverters;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -63,10 +64,7 @@ namespace DMS.EFCore.Api
                 options.JsonSerializerOptions.DictionaryKeyPolicy = null;
             });
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-
-#if DEBUG
             services.AddSwaggerGenV2();
-#endif
 
             #region AddDbContext
             services.AddDbContext<trydou_sysContext>(options => options.UseSqlServer(Configuration.GetConnectionString("trydou_sys")));
@@ -85,10 +83,8 @@ namespace DMS.EFCore.Api
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseSwaggerUIV2(DebugHelper.IsDebug(GetType()));
             }
-#if DEBUG
-            app.UseSwaggerUIV2();
-#endif
             app.UseStaticHttpContext();
 
             app.UseRouting();

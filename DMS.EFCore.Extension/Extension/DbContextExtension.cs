@@ -1,4 +1,4 @@
-﻿using DMS.Common.BaseResult;
+﻿using DMSN.Common.BaseResult;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

@@ -1,7 +1,7 @@
-﻿using DMS.Common.Extensions;
-using DMS.Common.Helper;
-using DMS.EFCore.Contracts;
+﻿using DMS.EFCore.Contracts;
 using DMS.EFCore.Repository.Models;
+using DMSN.Common.Extensions;
+using DMSN.Common.Helper;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -119,10 +119,10 @@ namespace DMS.EFCore.Api.Controllers
         [HttpGet("GetAppConfig")]
         public ActionResult GetAppConfig()
         {
-            string memberApi = DMS.Common.AppConfig.GetVaule<string>("MemberUrl");
-            memberApi = DMS.Common.AppConfig.GetVaule("MemberUrl");
+            string memberApi = DMSN.Common.AppConfig.GetVaule<string>("MemberUrl");
+            memberApi = DMSN.Common.AppConfig.GetVaule("MemberUrl");
             var ip = $"获取IP：{IPHelper.GetWebClientIp()}";
-            var dev = DMS.Common.AppConfig.GetVaule("dev");
+            var dev = DMSN.Common.AppConfig.GetVaule("dev");
             var redisOption = DMS.Redis.AppConfig.RedisOption;
 
 

@@ -1,7 +1,7 @@
 using Autofac.Extensions.DependencyInjection;
+using DMS.NLogs;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
-using NLogs;
 
 namespace DMS.EFCore.Api
 {

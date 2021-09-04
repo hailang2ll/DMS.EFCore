@@ -1,5 +1,5 @@
-﻿using DMS.Common.BaseResult;
-using DMS.EFCore.Repository.Models;
+﻿using DMS.EFCore.Repository.Models;
+using DMSN.Common.BaseResult;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 

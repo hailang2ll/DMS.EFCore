@@ -1,5 +1,5 @@
-﻿using DMS.Common.BaseResult;
-using DMS.EFCore.Repository.Mysql2.Models;
+﻿using DMS.EFCore.Repository.Mysql2.Models;
+using DMSN.Common.BaseResult;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 

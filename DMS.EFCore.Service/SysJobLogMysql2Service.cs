@@ -1,9 +1,9 @@
-﻿using DMS.Common.BaseResult;
-using DMS.Common.Extensions;
-using DMS.Common.Extensions.ExpressionFunc;
-using DMS.EFCore.Contracts;
+﻿using DMS.EFCore.Contracts;
 using DMS.EFCore.Extension;
 using DMS.EFCore.Repository.Mysql2.Models;
+using DMSN.Common.BaseResult;
+using DMSN.Common.Extensions;
+using DMSN.Common.Extensions.ExpressionFunc;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
